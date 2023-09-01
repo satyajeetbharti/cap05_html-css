@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+    <STYLE>
+      #parent{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        border-radius: 20px;
+        
+        
+      }
+     
+       
+      
+      #parent>div{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 20px;
+      }
+      button{
+        width: 350px;
+        height: 45px;
+       color: white;
+       background-color: #ed0331;
+       border-radius: 1px solid black ;
+       font-weight: bold;
+       text-align: center;
+       box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+       border-radius: 15px;
+      }
+      button:hover{
+        width: 360px;
+        height: 50px;
+       color: rgb(0, 0, 0);
+       background-color: #a7f879;
+       border-radius: 4%;
+       font-weight: bold;
+       text-align: center;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       border-radius: 15px;
+      }
+      h1{
+        text-align: center;
+        color: #ed0331;
+      }
+      .para{
+        text-align: center;
+        font-weight: bold;
+        font-size:20px ;
+        color: rgb(5, 5, 5);
+      }
+      .last{
+        text-align: center;
+      }
+      li{
+        line-height: 30px;
+        font-weight: bold;
+      }
+     
+    </STYLE>
+</head>
+<body>
+    <h1>Our Courses</h1>
+    <p class="para">Practice-Based Learning Tracks, Supercharged By A.I.</p>
+    <div id="parent">
+        <div>
+            <img src="https://www.masaischool.com/img/new-homepage/software-course-card.svg" alt="">
+            <h2>Software Development</h2>
+            <p>Become job-ready in 30-35 weeks.</p>
+            <hr>
+            <ul>
+              <li>Opportunities : Full Stack Developer, Backend <br> Developer, Software Engineer & much more. </li>
+              <li>100% live learning with expert instructors.</li>
+              <li>Pay After Placement</li>
+            </ul>
+            <button>VIEW DETAILS</button>
+        </div>
+        <div>
+            <img src="https://www.masaischool.com/img/new-homepage/data-analytics-card.svg" alt="">
+            <h2>Data Analytics</h2>
+            <p>Become job-ready in 30 weeks. </p>
+            <hr>
+           <ul>
+            <li>Opportunities : Data Engineer, Data Analyst,
+              <br> Machine Learning Engineer & much more.</li>
+            <li>Learn from expert instructors and hands-on <br> assignments</li>
+            <li>Pay After Placement</li>
+           </ul>
+            <button>VIEW DETAILS</button>
+        </div>
+    </div>
+    <p CLASS="last">If you are currently studying in 1st, 2nd or pre-final year of college,
+      <a style="color: red;" href="#">CLICK HERE</a> 
+    </p>
+</body>
+</html>
